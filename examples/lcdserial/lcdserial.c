@@ -76,5 +76,6 @@ main(void)
 			i /= 10;
 		} while (i);
 
+    LPM0;
     }
 }
