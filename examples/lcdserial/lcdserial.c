@@ -63,7 +63,6 @@ main(void)
 
 	lcd_command(0x04); /* move cursor left */
 	count = 0;
-//	lcd_puts("ftw");
 
 	/* enable interrupts */
 	__eint();
@@ -77,7 +76,5 @@ main(void)
 			i /= 10;
 		} while (i);
 
-
-		LPM0;
-	}
+    }
 }
